@@ -22,11 +22,6 @@ function Adapter(opts, callback) {
   var remote;
   remote = opts.remote.recreate();
   debug('haz created remote');
-  
-  /* istanbul ignore next */
-  if (!opts.originalName) {
-    opts.originalName = this.name;
-  }
 
   this._name = opts.originalName;
   this.skipDependentDatabase = true;
