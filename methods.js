@@ -1,10 +1,18 @@
 'use strict';
 
 module.exports = [
-  'destroy',
-  'get',
   '_bulkDocs',
+  '_destroy',
+  '_info',
+  '_put',
   'allDocs',
-  '_id',
-  '_getRevisionTree',
+  'bulkGet',
+  'compact',
+  'get',
+  'getAttachment',
+  'id',
+  'putAttachment',
+  'remove',
+  'removeAttachment',
+  'revsDiff',
 ];
