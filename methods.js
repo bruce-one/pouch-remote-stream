@@ -4,7 +4,7 @@ module.exports = [
   '_bulkDocs',
   '_destroy',
   '_info',
-  '_put',
+  'put',
   'allDocs',
   'bulkGet',
   'compact',
